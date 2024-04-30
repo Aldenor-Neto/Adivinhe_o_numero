@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #222;
+  color: #fff;
+}
+
+h1 {
+  color: #ccc;
+}
+
+h2, p {
+  color: #eee;
+}
+
+input[type="radio"] {
+  margin: 0 5px 5px 0;
+}
+
+button {
+  background-color: #007bff;
+  color: #001f3f; /* Letra azul marinho */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+input[type="number"] {
+  padding: 10px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #fff; /* Letra branca */
+  margin-bottom: 10px;
+}
+
+input[type="number"]::placeholder {
+  color: #999;
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #333;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255
